@@ -151,6 +151,21 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* In-Feed Ad (Auto Relaxed) */}
+      <section className="py-4">
+        <div className="container mx-auto px-4">
+          <div className="flex justify-center">
+            <AdZone
+              id="in-feed-ad-1"
+              width={300}
+              height={250}
+              className="mx-auto"
+              slotId="in-feed-ad-1-slot"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* About Section */}
       <section id="about" className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
@@ -181,6 +196,21 @@ export default function HomePage() {
                 <p className="text-gray-600">Compare providers and find the best coverage for your needs</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Final In-Feed Ad (Auto Relaxed) */}
+      <section className="py-8">
+        <div className="container mx-auto px-4">
+          <div className="flex justify-center">
+            <AdZone
+              id="in-feed-ad-2"
+              width={300}
+              height={250}
+              className="mx-auto"
+              slotId="in-feed-ad-2-slot"
+            />
           </div>
         </div>
       </section>
