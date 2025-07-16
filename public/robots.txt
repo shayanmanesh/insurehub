@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://insurehub.ai/sitemap.xml
+
+# Block access to private areas
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow access to insurance categories
+Allow: /health-insurance
+Allow: /auto-insurance
+Allow: /home-insurance
+Allow: /life-insurance
+Allow: /business-insurance
+
+# Crawl-delay for good behavior
+Crawl-delay: 1
